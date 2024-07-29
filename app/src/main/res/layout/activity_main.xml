@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
+
+    <RelativeLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:background="#fff"
+         android:id="@+id/rv">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_toRightOf="@+id/cardView"
+             android:textSize="16dp"
+             android:layout_marginTop="40dp"
+             android:id="@+id/tView"
+             android:text="Aru" />
+
+        <androidx.cardview.widget.CardView
+             android:layout_height="120dp"
+             android:layout_width="120dp"
+             app:cardElevation="4dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="20dp"
+             app:cardCornerRadius="60dp"
+             android:id="@+id/cardView">
+
+            <ImageView
+                 android:layout_height="match_parent"
+                 android:layout_width="match_parent"
+                 android:src="@drawable/ts"
+                 android:scaleType="centerCrop"
+                 android:id="@+id/imgView" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_below="@+id/tView"
+             android:gravity="center"
+             android:layout_toRightOf="@+id/cardView"
+             android:textStyle="bold"
+             android:id="@+id/btnProfil"
+             android:text="Follow" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+         android:layout_height="250dp"
+         android:layout_width="match_parent"
+         android:orientation="vertical"
+         android:id="@+id/lyCenter">
+
+        <GridLayout
+             android:layout_height="120dp"
+             android:layout_width="match_parent"
+             android:orientation="horizontal"
+             android:rowCount="1"
+             android:columnCount="2"
+             android:id="@+id/gvLayout">
+
+            <androidx.cardview.widget.CardView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 app:cardElevation="4dp"
+                 app:cardUseCompatPadding="true"
+                 android:layout_columnWeight="1"
+                 app:cardCornerRadius="4dp"
+                 android:id="@+id/card1">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:gravity="center"
+                     android:orientation="vertical">
+
+                    <ImageView
+                         android:layout_height="50dp"
+                         android:layout_width="50dp"
+                         android:src="@drawable/cog_outline"
+                         android:tint="#000" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:text="Account" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 app:cardElevation="4dp"
+                 app:cardUseCompatPadding="true"
+                 android:layout_columnWeight="1"
+                 app:cardCornerRadius="4dp"
+                 android:id="@+id/card2">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:gravity="center"
+                     android:orientation="vertical">
+
+                    <ImageView
+                         android:layout_height="50dp"
+                         android:layout_width="50dp"
+                         android:src="@drawable/cog_outline"
+                         android:tint="#000" />
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:text="Account" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/My Application/app/src/main/java/com/example/myapplication/MainActivity.java",
+      "selection": {
+        "end": {
+          "column": 15,
+          "index": 1359,
+          "line": 34
+        },
+        "start": {
+          "column": 15,
+          "index": 1359,
+          "line": 34
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/My Application/app/src/main/java/com/example/myapplication/Count.java",
+      "selection": {
+        "end": {
+          "column": 44,
+          "index": 446,
+          "line": 13
+        },
+        "start": {
+          "column": 44,
+          "index": 446,
+          "line": 13
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/My Application/app/src/main/res/layout/layout_count.xml",
+      "selection": {
+        "end": {
+          "column": 43,
+          "index": 779,
+          "line": 19
+        },
+        "start": {
+          "column": 43,
+          "index": 779,
+          "line": 19
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/My Application/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 39,
+          "index": 245,
+          "line": 7
+        },
+        "start": {
+          "column": 39,
+          "index": 245,
+          "line": 7
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/My Application/app/src/main/res/drawable/border.xml",
+      "selection": {
+        "end": {
+          "column": 30,
+          "index": 354,
+          "line": 10
+        },
+        "start": {
+          "column": 30,
+          "index": 354,
+          "line": 10
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/My Application/app/src/main/res/layout/activity_main.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/My Application/app/src/main/res/layout/activity_main.xml"
+}
